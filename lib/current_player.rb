@@ -1,7 +1,7 @@
 def turn_count(board)
   #counter needs to start at 0 to keep track of turns
   counter = 0 
-  
+  #We declare a local variable 'token' by enclosing it in | | pipes. This variable's value is automatically assigned the element from the array for the current iteration.
   board.each do |token| 
     if token == "X" || token == "O"
   #counter will need to increase by 1 to track each turn  
